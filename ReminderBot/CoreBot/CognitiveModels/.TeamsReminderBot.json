@@ -1,0 +1,391 @@
+{
+  "luis_schema_version": "7.0.0",
+  "intents": [
+    {
+      "name": "Cancel",
+      "features": []
+    },
+    {
+      "name": "Help",
+      "features": []
+    },
+    {
+      "name": "None",
+      "features": []
+    },
+    {
+      "name": "Remind Me",
+      "features": []
+    },
+    {
+      "name": "Setup",
+      "features": []
+    }
+  ],
+  "entities": [
+    {
+      "name": "reminderItem",
+      "children": [],
+      "roles": [],
+      "features": []
+    }
+  ],
+  "hierarchicals": [],
+  "composites": [],
+  "closedLists": [],
+  "prebuiltEntities": [
+    {
+      "name": "datetimeV2",
+      "roles": []
+    },
+    {
+      "name": "email",
+      "roles": []
+    },
+    {
+      "name": "keyPhrase",
+      "roles": []
+    },
+    {
+      "name": "ordinalV2",
+      "roles": []
+    },
+    {
+      "name": "personName",
+      "roles": []
+    },
+    {
+      "name": "url",
+      "roles": []
+    }
+  ],
+  "utterances": [
+    {
+      "text": "bye",
+      "intent": "Cancel",
+      "entities": []
+    },
+    {
+      "text": "cancel",
+      "intent": "Cancel",
+      "entities": []
+    },
+    {
+      "text": "exit",
+      "intent": "Cancel",
+      "entities": []
+    },
+    {
+      "text": "good bye",
+      "intent": "Cancel",
+      "entities": []
+    },
+    {
+      "text": "goodbye",
+      "intent": "Cancel",
+      "entities": []
+    },
+    {
+      "text": "help",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "help me",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "how do i",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "luis",
+      "intent": "Setup",
+      "entities": []
+    },
+    {
+      "text": "never mind",
+      "intent": "Cancel",
+      "entities": []
+    },
+    {
+      "text": "nevermind",
+      "intent": "Cancel",
+      "entities": []
+    },
+    {
+      "text": "remind me at 5pm to make supper",
+      "intent": "Remind Me",
+      "entities": [
+        {
+          "entity": "reminderItem",
+          "startPos": 20,
+          "endPos": 30,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "remind me in a week to file my taxes",
+      "intent": "Remind Me",
+      "entities": [
+        {
+          "entity": "reminderItem",
+          "startPos": 23,
+          "endPos": 35,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "remind me next month to apply for credit card",
+      "intent": "Remind Me",
+      "entities": [
+        {
+          "entity": "reminderItem",
+          "startPos": 24,
+          "endPos": 44,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "remind me on the 10th to follow up with joe",
+      "intent": "Remind Me",
+      "entities": [
+        {
+          "entity": "reminderItem",
+          "startPos": 25,
+          "endPos": 42,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "remind me on the 22nd of next month to check out the new store",
+      "intent": "Remind Me",
+      "entities": [
+        {
+          "entity": "reminderItem",
+          "startPos": 39,
+          "endPos": 61,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "remind me saturday to not do any work",
+      "intent": "Remind Me",
+      "entities": [
+        {
+          "entity": "reminderItem",
+          "startPos": 22,
+          "endPos": 36,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "remind me this evening to do dishes",
+      "intent": "Remind Me",
+      "entities": [
+        {
+          "entity": "reminderItem",
+          "startPos": 26,
+          "endPos": 34,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "remind me to call bill friday at 10:30am",
+      "intent": "Remind Me",
+      "entities": [
+        {
+          "entity": "reminderItem",
+          "startPos": 13,
+          "endPos": 21,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "remind me to do something fun tomorrow",
+      "intent": "Remind Me",
+      "entities": [
+        {
+          "entity": "reminderItem",
+          "startPos": 13,
+          "endPos": 28,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "remind me to eat breakfast at 10am",
+      "intent": "Remind Me",
+      "entities": [
+        {
+          "entity": "reminderItem",
+          "startPos": 13,
+          "endPos": 25,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "remind me to finish project",
+      "intent": "Remind Me",
+      "entities": [
+        {
+          "entity": "reminderItem",
+          "startPos": 13,
+          "endPos": 26,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "remind me to go fishing",
+      "intent": "Remind Me",
+      "entities": [
+        {
+          "entity": "reminderItem",
+          "startPos": 13,
+          "endPos": 22,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "remind me tomorrow at 9pm to email susan",
+      "intent": "Remind Me",
+      "entities": [
+        {
+          "entity": "reminderItem",
+          "startPos": 29,
+          "endPos": 39,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "remind me tomorrow morning to setup meeting with ted and andrew",
+      "intent": "Remind Me",
+      "entities": [
+        {
+          "entity": "reminderItem",
+          "startPos": 30,
+          "endPos": 62,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "remind me tuesday to make pancakes",
+      "intent": "Remind Me",
+      "entities": [
+        {
+          "entity": "reminderItem",
+          "startPos": 21,
+          "endPos": 33,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "remindme next week to finish portal and email scott",
+      "intent": "Remind Me",
+      "entities": [
+        {
+          "entity": "reminderItem",
+          "startPos": 22,
+          "endPos": 50,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "remindme to go to the gym",
+      "intent": "Remind Me",
+      "entities": [
+        {
+          "entity": "reminderItem",
+          "startPos": 12,
+          "endPos": 24,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "setup",
+      "intent": "Setup",
+      "entities": []
+    },
+    {
+      "text": "stop",
+      "intent": "Cancel",
+      "entities": []
+    },
+    {
+      "text": "what?",
+      "intent": "Help",
+      "entities": []
+    }
+  ],
+  "versionId": "0.1",
+  "name": "TeamsReminderBot",
+  "desc": "",
+  "culture": "en-us",
+  "tokenizerVersion": "1.0.0",
+  "patternAnyEntities": [],
+  "regex_entities": [],
+  "phraselists": [],
+  "regex_features": [],
+  "patterns": [
+    {
+      "pattern": "remind me [datetimev2] to [reminderitem]",
+      "intent": "Remind Me"
+    },
+    {
+      "pattern": "remindme [datetimev2] to [reminderitem]",
+      "intent": "Remind Me"
+    },
+    {
+      "pattern": "remindme [datetimev2] [reminderitem]",
+      "intent": "Remind Me"
+    },
+    {
+      "pattern": "remind me [datetimev2] [reminderitem]",
+      "intent": "Remind Me"
+    },
+    {
+      "pattern": "remind me {datetimeV2} to {reminderItem}",
+      "intent": "Remind Me"
+    },
+    {
+      "pattern": "remind me to [reminderitem]",
+      "intent": "Remind Me"
+    },
+    {
+      "pattern": "remindme to [reminderitem] [datetimev2]",
+      "intent": "Remind Me"
+    },
+    {
+      "pattern": "remind me to [reminderitem] [datetimev2]",
+      "intent": "Remind Me"
+    },
+    {
+      "pattern": "remindme to [reminderitem]",
+      "intent": "Remind Me"
+    }
+  ],
+  "settings": [
+    {
+      "name": "NormalizePunctuation",
+      "value": "true"
+    }
+  ]
+}
